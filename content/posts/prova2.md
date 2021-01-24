@@ -1,7 +1,7 @@
 ---
 title: "Prova2"
 date: 2021-01-24T16:41:57+01:00
-draft: true
+draft: false
 categories: [test]
 tags: [test]
 author: Papà
