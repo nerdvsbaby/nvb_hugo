@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nerd VS Baby</title>
+    <link>https://gioxx.gitlab.io/nerdvsbaby/posts/</link>
+    <description>Recent content in Posts on Nerd VS Baby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 24 Jan 2021 16:41:57 +0100</lastBuildDate><atom:link href="https://gioxx.gitlab.io/nerdvsbaby/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prova2</title>
+      <link>https://gioxx.gitlab.io/nerdvsbaby/posts/prova2/</link>
+      <pubDate>Sun, 24 Jan 2021 16:41:57 +0100</pubDate>
+      
+      <guid>https://gioxx.gitlab.io/nerdvsbaby/posts/prova2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis mi leo, eu faucibus nisl luctus quis. Curabitur cursus aliquam nulla nec commodo. Cras lobortis fringilla nisl eu placerat. Ut dolor nunc, luctus sit amet efficitur et, cursus nec nisl. Sed ac posuere justo. Donec sit amet tincidunt neque, ac pharetra tortor. Nulla orci dolor, lacinia sed accumsan interdum, placerat eu urna. Ut vehicula augue nisl, non feugiat justo eleifend sed.</description>
+    </item>
+    
+    <item>
+      <title>Prova1</title>
+      <link>https://gioxx.gitlab.io/nerdvsbaby/posts/prova1/</link>
+      <pubDate>Sun, 24 Jan 2021 16:41:48 +0100</pubDate>
+      
+      <guid>https://gioxx.gitlab.io/nerdvsbaby/posts/prova1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis mi leo, eu faucibus nisl luctus quis. Curabitur cursus aliquam nulla nec commodo. Cras lobortis fringilla nisl eu placerat. Ut dolor nunc, luctus sit amet efficitur et, cursus nec nisl. Sed ac posuere justo. Donec sit amet tincidunt neque, ac pharetra tortor. Nulla orci dolor, lacinia sed accumsan interdum, placerat eu urna. Ut vehicula augue nisl, non feugiat justo eleifend sed.</description>
+    </item>
+    
+  </channel>
+</rss>

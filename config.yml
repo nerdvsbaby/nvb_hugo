@@ -1,0 +1,119 @@
+baseURL: "https://gioxx.gitlab.io/nerdvsbaby"
+defaultContentLanguage: it
+title: Nerd VS Baby
+paginate: 5
+theme: papermod
+
+enableRobotsTXT: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Nerd VS Baby
+    description: "Un diario online del rapporto tra un nerd e la sua unità bipede."
+    author: ["Papà", "Mamma"]
+    #images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    disqusShortname: nerd-vs-baby
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    disableSpecial1stPost: false
+    comments: true
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "/ico/favicon.ico"
+        favicon16x16: "/ico/favicon-16x16.png"
+        favicon32x32: "/ico/favicon-32x32.png"
+        apple_touch_icon: "/ico/apple-touch-icon.png"
+        safari_pinned_tab: "/ico/nerd-vs-baby.svg"
+
+    label:
+        text: "Nerd VS Baby"
+        icon: /ico/apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: ExampleSite
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        #Title: "Nerd VS Baby \U0001F44B"
+        #Content: Un diario online del rapporto tra un nerd e la sua unità bipede.
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/gioxx"
+        - name: github
+          url: "https://github.com/gioxx"
+
+    #analytics:
+    #    google:
+    #        SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: categories
+          name: categorie
+          url: /categories/
+          weight: 20
+        - identifier: tags
+          name: tag
+          url: /tags/
+          weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+
+taxonomies:
+    category: categories
+    nerd-vs-baby: Nerd VS Baby
+    tag: mamma, papà, famiglia
