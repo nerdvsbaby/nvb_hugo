@@ -19,7 +19,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Nerd VS Baby
     description: "Un diario online del rapporto tra un nerd e la sua unità bipede."
-    author: ["Papà", "Mamma"]
+    author: ["Papà", "Mamma", "Famiglia"]
     #images: ["<link or path of image for opengraph, twitter-cards>"]
 
     defaultTheme: auto # dark, light
@@ -47,30 +47,20 @@ params:
         icon: /ico/apple-touch-icon.png
         iconHeight: 35
 
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
-
     # home-info mode
     homeInfoParams:
-        #Title: "Nerd VS Baby \U0001F44B"
-        #Content: Un diario online del rapporto tra un nerd e la sua unità bipede.
+        Title: "Ciao, ti trovi su Nerd VS Baby \U0001F476"
+        Content: Un diario online del rapporto tra un nerd e la sua unità bipede.
 
     socialIcons:
         - name: twitter
           url: "https://twitter.com/gioxx"
         - name: github
-          url: "https://github.com/gioxx"
+          url: "https://github.com/nerdvsbaby"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/gioxx/"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/gioxx"
 
     #analytics:
     #    google:
